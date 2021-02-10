@@ -44,14 +44,9 @@ h1 {
     position: relative;
     background-image: url("../img/pattern.png");
     background-size: contain;
-    position: relative;
 }
 /* DISPLAY HOVER */
-.carte img {
-    display: none;
-}
-
-.carte h2 {
+.carte *{
     display: none;
 }
 
@@ -76,6 +71,14 @@ h2 {
     left: 20px;
     right: 20px;
 }
+
+.speciale {
+    background-image: none;
+}
+.speciale *{
+    display: inline-block;
+}
+
 /* FINE MAIN */
 
 /* FOOTER */
