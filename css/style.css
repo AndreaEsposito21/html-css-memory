@@ -6,13 +6,14 @@
 
 /* COMMON */
 body {
-    /* background-color: grey; */
+    background-color: grey;
+}
+
+img {
+    width: 100%;
 }
 
 .container {
-    /* TEST */
-    background-color: grey;
-
     font-family: "Nerko One", Helvetica, sans-serif;
     width: 65%;
     margin: auto;
@@ -28,10 +29,24 @@ h1 {
 
 /* MAIN */
 .riga {
-    /* TEST */
+    text-align: center;
+}
+
+.carte {
+    margin: 15px;
+    overflow: hidden;
+    padding: 0px 30px;
     height: 200px;
-    background-color: teal;
-    border: 1px solid white;
+    width: 17%;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+}
+
+h2 {
+    font-size: 30px;
+    color: violet;
 }
 /* FINE MAIN */
 
