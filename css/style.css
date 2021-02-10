@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+body {
+    /* background-color: grey; */
+}
+
+.container {
+    /* TEST */
+    background-color: grey;
+
+    font-family: "Nerko One", Helvetica, sans-serif;
+    width: 65%;
+    margin: auto;
+}
+
+/* HEADER */
+h1 {
+    font-size: 75px;
+    text-align: center;
+    color: white;
+}
+/* FINE HEADER */
+
+/* MAIN */
+.riga {
+    /* TEST */
+    height: 200px;
+    background-color: teal;
+    border: 1px solid white;
+}
+/* FINE MAIN */
+
+/* FOOTER */
+h3 {
+    text-align: center;
+}
+/* FINE FOOTER */
