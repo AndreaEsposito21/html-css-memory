@@ -6,7 +6,7 @@
 
 /* COMMON */
 body {
-    background-color: grey;
+    background-color: #add8e6;
 }
 
 img {
@@ -42,11 +42,39 @@ h1 {
     display: inline-block;
     border-radius: 10px;
     position: relative;
+    background-image: url("../img/pattern.png");
+    background-size: contain;
+    position: relative;
+}
+/* DISPLAY HOVER */
+.carte img {
+    display: none;
 }
 
+.carte h2 {
+    display: none;
+}
+
+.carte:hover {
+    background-image: none;
+}
+
+.carte:hover img {
+    display: inline-block;
+}
+
+.carte:hover h2 {
+    display: inline-block;
+    color: #e67919;
+}
+/*FINE DISPLAY HOVER */
 h2 {
     font-size: 30px;
-    color: violet;
+    color: #e61986;
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    right: 20px;
 }
 /* FINE MAIN */
 
